@@ -1,0 +1,41 @@
+.body{
+    background-image: url(./Images/Job.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+.container{
+    margin: 0 50px;
+}
+
+header{
+    margin: 0;
+    padding: 0 10px;
+    background-color: darkcyan;
+}
+
+.header-logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    
+}
+
+.header-links{
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+    margin: -50px 0 0 0 ;
+}
+
+.header-links > li{
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 24px;
+    font-weight: 400;
+    list-style: none;
+
+}
